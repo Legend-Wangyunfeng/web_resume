@@ -222,40 +222,40 @@ div.background p {
     bottom: 2px;
 }
 div.one {
-    background: url(./one.jpg);
+    background: url(../img/one.jpg);
     margin-right: 10px;
     background-size: 100% 100%;
 }
 div.two {
-    background: url(./two.jpg);
+    background: url(../img/two.jpg);
     background-size: 100% 100%;
 }
 div.three {
-    background: url(./three.jpg);
+    background: url(../img/three.jpg);
     margin: 0 10px;
     background-size: 100% 100%;
 }
 div.four {
-    background: url(./four.jpg);
+    background: url(../img/four.jpg);
     background-size: 100% 100%;
 }
 div.five {
-    background: url(./five.jpg);
+    background: url(../img/five.jpg);
     margin: 10px 10px 0 0;
     background-size: 100% 100%;
 }
 div.six {
-    background: url(./six.jpg);
+    background: url(../img/six.jpg);
     margin: 10px 10px 0 0;
     background-size: 100% 100%;
 }
 div.seven {
-    background: url(./seven.jpg);
+    background: url(../img/seven.jpg);
     margin: 10px 10px 0 0;
     background-size: 100% 100%;
 }
 div.eight {
-    background: url(./eight.jpg);
+    background: url(../img/eight.jpg);
     margin: 10px 0 0 0;
     background-size: 100% 100%;
 }
@@ -304,7 +304,7 @@ div.img {
     border-radius: 50%;
     position: relative;
     top: 10px;
-    background: url(./avatar.jpg);
+    background: url(../img/avatar.jpg);
     background-size: 100% 100%;
 }
 p.name {
