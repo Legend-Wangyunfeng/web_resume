@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#head-background {
+    background-image: linear-gradient(#e66465, #9198e5);;
+    height: 80px;
+}
+
+#head {
+    width: 960px;
+    height: 100%;
+    margin: auto;
+}
+
+#name {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 25px;
+    height: 100%;    
+    display: inline-block;
+    line-height: 80px;
+}
+
+#guide-image {
+    float: right;   
+    height: 100%;
+    /* vertical-align: middle; */
+}
+
+#guide {
+    /* float: left; */
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-right: 40px;
+    font-size: 14px;
+    /* line-height: 80px; */
+    display: inline;
+}
+#guide a:link {
+    text-decoration:none;
+    color: #9198e5;
+}
+#guide a:visited {
+    text-decoration:none;
+    color: #000;
+}
+img.img1 {
+    height: 100%;
+    /* display: inline-block; */
+    vertical-align: middle;
+}
+
+#intro {
+    box-sizing: border-box;
+    width: 960px;
+    height: 160px;
+    margin: 5px auto;
+    padding: 20px;
+    background-color: ghostwhite;
+    position: relative;
+}
+#intro>p {
+    margin: 15px 0;
+}
+div.contact {
+    position: absolute;
+    bottom: 0;
+}
+
+#skill-experiment {
+    width: 960px;
+    height: 188.8px;
+    margin: 5px auto 10px;
+    border-style: solid red;
+    
+}
+#skill {
+    box-sizing: border-box;
+    width: 240px;
+    /* height: 100%; */
+    padding: 10px;
+    margin-right: 10px;
+    float: left;
+    background-color: ghostwhite;
+}
+#skill > p {
+    font-weight: bold;
+    text-align: center;
+}
+#language {
+    box-sizing: border-box;
+    width: 45%;
+    /* margin-right: 5px; */
+    float: left;
+    text-align: right;
+    /* line-height: 200%; */
+}
+#language > p{
+    margin:8px;
+    height: 20px;
+}
+
+#degree {
+    box-sizing: border-box;
+    width: 50%;
+    line-height: 150%;
+    /* background-color: green; */
+    float: left;
+}
+#degree > div{
+    height: 20px;
+    margin:8px;
+    background-color: lightskyblue;
+}
+div.JS{
+    width: 70%;
+}
+div.CSS{
+    width: 65%;
+}
+div.HTML{
+    width: 80%;
+}
+div.Python{
+    width: 85%;
+}
+div.SQL{
+    width: 60%;
+}
+
+#experiment {
+    width: 710px;
+    height: 188.8px;
+    float: right;
+    background-color: ghostwhite;
+}
+
+ul.title {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: ghostwhite;  
+}
+ul.title > li{
+    float: left;
+    border-right: 1px solid #bbb;
+}
+ul.title > li > button {
+    /* display: block; */
+    background-color: inherit;
+    color: #666;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    border: none;
+}
+
+table.education-table{
+    margin: 35px 5px;
+    display: table;
+}
+table.work-table {
+    margin: 35px 5px;
+    display: none;
+}
+table.prize-table {
+    margin: 5px 5px;
+    display: none;
+}
+td.year {
+    margin-right: 50px;
+    line-height: 200%;
+    float: left;
+}
+table.prize-table td.year{
+    line-height: 100%;
+}
+div.odd {
+    background-color: ghostwhite;
+    width: 960px;
+    margin: auto;
+    /* margin: 5px 0; */
+    /* border-style: solid; */
+}
+div.even {
+    width: 960px;
+    margin: auto;
+}
+
+/* div.item {
+    width: 960px;
+
+} */
+div.item p {
+    margin:8px 0;
+}
+
+#interaction {
+    width: 960px;
+    height: 370px;
+    margin: 10px auto;
+    background-color: ghostwhite;
+}
+#photoes {
+    width: 630px;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+}
+div.background{
+    width: 150px;
+    height: 180px;
+    position: relative;
+    
+}
+div.background p {
+    position: absolute;
+    bottom: 2px;
+}
+div.one {
+    background: url(./one.jpg);
+    margin-right: 10px;
+    background-size: 100% 100%;
+}
+div.two {
+    background: url(./two.jpg);
+    background-size: 100% 100%;
+}
+div.three {
+    background: url(./three.jpg);
+    margin: 0 10px;
+    background-size: 100% 100%;
+}
+div.four {
+    background: url(./four.jpg);
+    background-size: 100% 100%;
+}
+div.five {
+    background: url(./five.jpg);
+    margin: 10px 10px 0 0;
+    background-size: 100% 100%;
+}
+div.six {
+    background: url(./six.jpg);
+    margin: 10px 10px 0 0;
+    background-size: 100% 100%;
+}
+div.seven {
+    background: url(./seven.jpg);
+    margin: 10px 10px 0 0;
+    background-size: 100% 100%;
+}
+div.eight {
+    background: url(./eight.jpg);
+    margin: 10px 0 0 0;
+    background-size: 100% 100%;
+}
+#guestbook {
+    height: 100%;
+    width: 320px;
+    float: right;
+    position: relative;
+}
+#guestbook>p{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+div.img-content{
+    box-sizing: border-box;
+    width: 300px;
+    height: 250px;
+    margin: 5px auto;
+    border: 2px dotted;
+    overflow: auto;
+}
+div.img-content > div {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 5px;
+    display: none;
+}
+div.img-name {
+    height: 100%;
+    width: 50px;
+    
+}
+
+div.img-content > div.odd .img-name {
+    float: left;
+}
+div.img-content > div.even .img-name {
+    float: right;
+}
+div.img {
+    width: 50px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+    background: url(./avatar.jpg);
+    background-size: 100% 100%;
+}
+p.name {
+    position: relative;
+    top: 10px;
+    text-align: center;
+}
+div.content {
+    height: 100%;
+    box-sizing: border-box;
+    width: 220px;
+    border: 1px solid;
+    padding: 4px;
+    overflow: auto;
+}
+div.img-content > div.odd .content {
+    float: right;
+}
+div.img-content > div.even .content {
+    float: left;
+}
+form {
+    box-sizing: border-box;
+    width: 100%;
+    height: 80px;
+    margin-top: 3px;
+    /* padding: 5px; */
+}
+input {
+    margin:4px;
+    height: 25px;
+}
+#message {
+    width: 300px;
+}
+#guestname {
+    width: 220px;
+    float: left;
+}
+input.button {
+    position: relative;
+    right: -12px;
+    /* float: right; */
+    width: 60px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    border-radius: 10%;
+}
+
+#footer {
+    height: 80px;
+    background-color: slategrey;
+    text-align: center;
+    line-height: 80px;
+    font-size: 35px;
+    font-family: STKaiti;
+}
