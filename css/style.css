@@ -175,6 +175,7 @@ td.year {
     margin-right: 50px;
     line-height: 200%;
     float: left;
+    /* text-align: center; */
 }
 table.prize-table td.year{
     line-height: 100%;
